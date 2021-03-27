@@ -7,12 +7,12 @@
         <ScrollView>
             <StackLayout BackgroundColor="White" Visual="Material">
                 <StackLayout WidthRequest="100">
-                    <!--<Button BackgroundColor="White" BorderColor="#F6F6F6" BorderRadius="100"  HorizontalOptions="Start" Text="Back" TextColor="#45B549" FontSize="17" 
-                             FontAttributes="Bold" Margin="15"/>-->
-                    <Label HorizontalOptions="Center" Text="Market" TextColor="Black" FontSize="30" FontAttributes="Bold" Margin="0,25,20,0"/>
+                    <Button BackgroundColor="White" BorderRadius="10"  HorizontalOptions="End" Text="Cuenta" TextColor="#45B549" FontSize="17" 
+                             FontAttributes="Bold" Margin="10,10,0,0" x:Name="btnCuenta"/>
+                    <Label HorizontalOptions="Center" Text="Market" TextColor="Black" FontSize="30" FontAttributes="Bold" Margin="0,-15,20,-30"/>
                 </StackLayout>
                 <SearchBar Placeholder="Buscar..." PlaceholderColor="#666666" BackgroundColor="#F6F6F6" TextColor="#666666"
-                           Margin="20,0,25,0" CancelButtonColor="Red"/>
+                           Margin="20,0,20,0" CancelButtonColor="Red"/>
 
 
 
