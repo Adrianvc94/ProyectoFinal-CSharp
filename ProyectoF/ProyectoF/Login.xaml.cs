@@ -22,7 +22,7 @@ namespace ProyectoF
         {
             if ((txtCorreo.Text == "admin") && (txtPassword.Text == "admin")) 
             {
-                ((NavigationPage)this.Parent).PushAsync(new SignUp());
+                ((NavigationPage)this.Parent).PushAsync(new Market());
             }
         }
     }

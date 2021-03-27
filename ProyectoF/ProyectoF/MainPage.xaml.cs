@@ -13,40 +13,10 @@ namespace ProyectoF
         public MainPage()
         {
             InitializeComponent();
-            login.Clicked += Login_Clicked;
-            SignIn.Clicked += SignIn_Clicked;
-            BtnCuenta.Clicked += BtnCuenta_Clicked;
-            BtnMarket.Clicked += BtnMarket_Clicked;
-            BtnShopping.Clicked += BtnShopping_Clicked;
-            BtnDescriptionPage.Clicked += BtnDescriptionPage_Clicked;
+            btnIrLogin.Clicked += BtnIrLogin_Clicked;
         }
 
-        private void BtnDescriptionPage_Clicked(object sender, EventArgs e)
-        {
-            ((NavigationPage)this.Parent).PushAsync(new DescriptionPage());
-        }
-
-        private void BtnShopping_Clicked(object sender, EventArgs e)
-        {
-            ((NavigationPage)this.Parent).PushAsync(new ShoppingCart());
-        }
-
-        private void BtnMarket_Clicked(object sender, EventArgs e)
-        {
-            ((NavigationPage)this.Parent).PushAsync(new Market());
-        }
-
-        private void BtnCuenta_Clicked(object sender, EventArgs e)
-        {
-            ((NavigationPage)this.Parent).PushAsync(new Cuenta());
-        }
-
-        private void SignIn_Clicked(object sender, EventArgs e)
-        {
-            ((NavigationPage)this.Parent).PushAsync(new SignUp());
-        }
-
-        private void Login_Clicked(object sender, EventArgs e)
+        private void BtnIrLogin_Clicked(object sender, EventArgs e)
         {
             ((NavigationPage)this.Parent).PushAsync(new Login());
         }

@@ -8,9 +8,9 @@
              x:Class="ProyectoF.ShoppingCart">
     
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White" >
-        <Button x:Name="btnBack" BackgroundColor="White" BorderRadius="100"  HorizontalOptions="Start" Text="Back" TextColor="#45B549" FontSize="17" FontAttributes="Bold" Margin="15"/>
-        <Label Text="Carrito" FontSize="30" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="25" TextColor="Black"/>
-        <Grid BackgroundColor="White" HeightRequest="400">
+        <Button Visual="Material" x:Name="btnBack" BackgroundColor="White" BorderRadius="100"  HorizontalOptions="Start" Text="Back" TextColor="#45B549" FontSize="17" FontAttributes="Bold" Margin="15"/>
+        <Label Text="Carrito" FontSize="30" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,0,0,40" TextColor="Black"/>
+        <Grid BackgroundColor="White" HeightRequest="430">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
@@ -65,7 +65,7 @@
 
         </Grid>
         <Frame>
-            <Button Text="Comprar" BackgroundColor="#45B549" Margin="0,0,0,0"/>
+            <Button Visual="Material" Text="Comprar" FontAttributes="Bold" BackgroundColor="#45B549" Margin="0,0,0,0"/>
         </Frame>
     </StackLayout>
 
