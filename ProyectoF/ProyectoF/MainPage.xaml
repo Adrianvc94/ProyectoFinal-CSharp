@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="ProyectoF.MainPage">
+
+    
+
+    <StackLayout>
+        <Button Text="Login" x:Name="login"></Button>
+        <Button Text="Sign In" x:Name="SignIn"></Button>
+        <Button Text="Cuenta" x:Name="BtnCuenta"></Button>
+        <Button Text="Market" x:Name="BtnMarket"></Button>
+        <Button Text="Shopping" x:Name="BtnShopping"></Button>
+        <Button Text="DescriptionPage" x:Name="BtnDescriptionPage"></Button>
+
+    </StackLayout>
+
+</ContentPage>

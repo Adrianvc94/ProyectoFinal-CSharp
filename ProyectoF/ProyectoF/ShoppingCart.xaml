@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="ProyectoF.ShoppingCart">
+    
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White" >
+        <Button x:Name="btnBack" BackgroundColor="White" BorderRadius="100"  HorizontalOptions="Start" Text="Back" TextColor="#45B549" FontSize="17" FontAttributes="Bold" Margin="15"/>
+        <Label Text="Carrito" FontSize="30" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="25" TextColor="Black"/>
+        <Grid BackgroundColor="White" HeightRequest="400">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <!--<RowDefinition/>-->
+                <!--<RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>-->
+                <!--<RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>-->
+            </Grid.RowDefinitions>
+            <Label Text="Imagen" TextColor="Black" Grid.Row="0" Grid.Column="0" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+            <Label Text="Producto" TextColor="Black" Grid.Row="0" Grid.Column="1" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+            <Label Text="" Grid.Row="0" TextColor="Black" Grid.Column="2" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Cantidad" TextColor="Black" Grid.Row="0" Grid.Column="3" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0"/>
+            <Label Text="" TextColor="Black" Grid.Row="0" Grid.Column="4" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+
+            <Image Grid.Row="1" Grid.Column="0" Source="https://images-na.ssl-images-amazon.com/images/I/61GggH1hAaL._AC_SY450_.jpg"/>
+            <Label Text="iPhone 12 Pro Max" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="+" Grid.Row="1"  Grid.Column="2"  HorizontalOptions="CenterAndExpand" Margin="10,3,-10,3" CornerRadius="10"
+                    BackgroundColor="Transparent" BorderColor="#666666" BorderWidth="1" TextColor="Black"/>
+            <Label Text="1" TextColor="Black" Grid.Row="1" Grid.Column="3" HorizontalOptions="CenterAndExpand" />
+            <Button Text="-" Grid.Row="1" Grid.Column="4" HorizontalOptions="CenterAndExpand" Margin="3,3,15,3" CornerRadius="10"
+                    BackgroundColor="Transparent" BorderColor="#666666" BorderWidth="1" TextColor="Black"/>
+
+            <Image Grid.Row="2"  Grid.Column="0" Source="https://www.movilzona.es/app/uploads/2020/10/Apple-iPhone-12-Pro-Max-GRANDE.png"/>
+            <Label Text="iPhone 11 Pro Max" TextColor="Black" Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="+" Grid.Row="2" Grid.Column="2"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="10,3,-10,3" CornerRadius="10"
+                    BackgroundColor="Transparent" BorderColor="#666666" BorderWidth="1" TextColor="Black"/>
+            <Label Text="1" TextColor="Black"  Grid.Row="2" Grid.Column="3" HorizontalOptions="CenterAndExpand" />
+            <Button Text="-" Grid.Row="2" Grid.Column="4" HorizontalOptions="CenterAndExpand" Margin="3,3,15,3" CornerRadius="10"
+                    BackgroundColor="Transparent" BorderColor="#666666" BorderWidth="1" TextColor="Black"/>
+
+
+
+        </Grid>
+        <Frame>
+            <Button Text="Comprar" BackgroundColor="#45B549" Margin="0,0,0,0"/>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

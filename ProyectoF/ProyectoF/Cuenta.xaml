@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False" 
+             x:Class="ProyectoF.Cuenta">
+    
+
+
+    <Grid>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Grid>
+                <Frame Padding="0" HeightRequest="250" BackgroundColor="#45B549">
+
+                    
+                </Frame>
+            </Grid>
+
+            <Grid VerticalOptions="FillAndExpand" Margin="-10,-20,0,-20">
+
+                <Frame BackgroundColor="White" HeightRequest="450" VerticalOptions="CenterAndExpand"
+                       Margin="0,-90,0,-20" BorderColor="Transparent">
+
+                    <Grid Margin="-15,50,0,0" RowSpacing="0" ColumnSpacing="0" Visual="Default">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+
+                        <Label Text="Victoria Robertson" HorizontalOptions="Center" TextColor="Black"
+                                   FontSize="30" FontAttributes="Bold" Grid.Row="0" Margin="20,0,0,20"
+                                   ></Label>
+                        <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="1" BorderColor="#F6F6F6">
+                            <Button Text="Opcion 1" BackgroundColor="#FFFBF5" TextColor="#2F3030"
+                            x:Name="Opcion1" FontAttributes="Bold" HorizontalOptions="Start"
+                                BorderWidth="0" TextTransform="None"
+                                    Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
+                        </Frame>
+
+                        <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="2" 
+                               BorderColor="#FFFBF5">
+                            <Button Text="Opcion 2" BackgroundColor="Transparent" TextColor="#2F3030"
+                            x:Name="BtnIr" FontAttributes="Bold" HorizontalOptions="Start"
+                                BorderWidth="0" TextTransform="None"
+                                    Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
+                        </Frame>
+
+                        <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="3" BorderColor="#F6F6F6">
+                            <Button Text="Opcion 3" BackgroundColor="Transparent" TextColor="#2F3030"
+                            x:Name="Opcion2" FontAttributes="Bold"  HorizontalOptions="Start"
+                                BorderWidth="0" TextTransform="None"
+                                    Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
+                        </Frame>
+
+                        <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="4" BorderColor="Transparent">
+                            <Button Text="Opcion 4" BackgroundColor="Transparent" TextColor="#2F3030"
+                            x:Name="Opcion4" FontAttributes="Bold"  HorizontalOptions="Start"
+                                BorderWidth="0" TextTransform="None"
+                                    Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
+                        </Frame>
+                    </Grid>
+                </Frame>
+                <Frame BackgroundColor="#F6F6F6" HeightRequest="150" Margin="0,-610,0,-20"
+                       WidthRequest="150" HorizontalOptions="Center" 
+                       VerticalOptions="Center" CornerRadius="100" Padding="0,0,0,-5">
+                    <Frame CornerRadius="100"  Margin="-15,-15,-15,-15">
+                        <Image Source="FotoUsuario.png" 
+                           Aspect="Fill"></Image>
+                    </Frame>
+                </Frame>
+
+                <Frame BackgroundColor="#F6F6F6" HeightRequest="150" Margin="0,-610,0,-20"
+                       WidthRequest="150" HorizontalOptions="Center" 
+                       VerticalOptions="Center" CornerRadius="100" Padding="0,0,0,-5">
+                    <Frame CornerRadius="100"  Margin="-15,-15,-15,-15">
+                        <Image Source="FotoUsuario.png" 
+                           Aspect="Fill"></Image>
+                    </Frame>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" HeightRequest="50" Margin="7,-840,0,0"
+                       WidthRequest="150" HorizontalOptions="Center" 
+                       VerticalOptions="Center" CornerRadius="100" Padding="0,0,0,0">
+                    <Label Text="Cuenta" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center"
+                           FontAttributes="Bold" TextColor="White"></Label>
+                </Frame>
+
+
+            </Grid>
+
+        </StackLayout>
+    </Grid>
+    
+    
+</ContentPage>
