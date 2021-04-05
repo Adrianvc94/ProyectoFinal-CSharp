@@ -34,7 +34,7 @@
                         <Image  HorizontalOptions="Center"  Source="https://www.larepublica.net/storage/images/2020/11/13/20201113091246.huawei-2.jpg" HeightRequest="100" />
                         <Label HorizontalOptions="Center" Text="Huawei Y9a" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="3"/>
                         <Label HorizontalOptions="Center" Text="$500" TextColor="Gray" FontSize="10" FontAttributes="None" VerticalTextAlignment="Center"/>
-                        <Button HorizontalOptions="Center" Text="Ver más" FontSize="10" Margin="0,22,0,0"/>
+                        <Button HorizontalOptions="Center" Text="Ver más" FontSize="10" Margin="0,0,0,0"/>
 
                     </StackLayout>
                     <StackLayout  Margin="5" WidthRequest="100">

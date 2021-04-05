@@ -8,14 +8,23 @@
 
     <Grid>
         <StackLayout VerticalOptions="FillAndExpand">
+            
             <Grid>
+                
                 <Frame Padding="0" HeightRequest="250" BackgroundColor="#45B549">
+                   
 
-                    
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" HeightRequest="50" Margin="7,0,250,0"
+                       WidthRequest="150" HorizontalOptions="Center" 
+                       VerticalOptions="Center" CornerRadius="100" Padding="0,0,0,0">
                 </Frame>
             </Grid>
 
             <Grid VerticalOptions="FillAndExpand" Margin="-10,-20,0,-20">
+
+               
 
                 <Frame BackgroundColor="White" HeightRequest="450" VerticalOptions="CenterAndExpand"
                        Margin="0,-90,0,-20" BorderColor="Transparent">
@@ -94,6 +103,9 @@
                            FontAttributes="Bold" TextColor="White"></Label>
                 </Frame>
 
+                
+
+                
 
             </Grid>
 
