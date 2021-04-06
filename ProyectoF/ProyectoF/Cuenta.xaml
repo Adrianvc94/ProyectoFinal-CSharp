@@ -49,13 +49,13 @@
                                    FontSize="30" FontAttributes="Bold" Grid.Row="0" Margin="20,0,0,20"
                                    ></Label>
                         <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="1" BorderColor="#F6F6F6">
-                            <Button Text="Opcion 1" BackgroundColor="#FFFBF5" TextColor="#2F3030"
-                            x:Name="Opcion1" FontAttributes="Bold" HorizontalOptions="Start"
+                            <Button Text="Reportes" BackgroundColor="#FFFBF5" TextColor="#2F3030"
+                            x:Name="btnReportes" FontAttributes="Bold" HorizontalOptions="Start"
                                 BorderWidth="0" TextTransform="None"
                                     Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
                         </Frame>
 
-                        <Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="2" 
+                        <!--<Frame HeightRequest="18" Padding="15,22,0,22" Margin="0,0,-50,0" Grid.Row="2" 
                                BorderColor="#FFFBF5">
                             <Button Text="Opcion 2" BackgroundColor="Transparent" TextColor="#2F3030"
                             x:Name="BtnIr" FontAttributes="Bold" HorizontalOptions="Start"
@@ -75,7 +75,7 @@
                             x:Name="Opcion4" FontAttributes="Bold"  HorizontalOptions="Start"
                                 BorderWidth="0" TextTransform="None"
                                     Margin="0,0,0,0" Padding="0,-5,0,-5" FontSize="20" ></Button>
-                        </Frame>
+                        </Frame>-->
                     </Grid>
                 </Frame>
                 <Frame BackgroundColor="#F6F6F6" HeightRequest="150" Margin="0,-610,0,-20"

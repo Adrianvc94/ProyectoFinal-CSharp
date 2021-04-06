@@ -15,6 +15,12 @@ namespace ProyectoF
         public Cuenta()
         {
             InitializeComponent();
+            btnReportes.Clicked += BtnReportes_Clicked;
+        }
+
+        private void BtnReportes_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Reportes());
         }
     }
 }

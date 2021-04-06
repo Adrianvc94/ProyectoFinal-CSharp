@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoF.Reportes"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Padding="20" Spacing="20">
+            <Image Source="kolbi.png"/>
+            <Label Text="Sección de reportes." TextColor="Black" HorizontalTextAlignment="Center" FontSize="18"/>
+
+
+            <Button Text="Compras totales" BackgroundColor="#16CAB0" CornerRadius="20" Clicked="Button1_Clicked"/>
+            <Button Text="Compras activas" BackgroundColor="#16CAB0" CornerRadius="20" Clicked="Button2_Clicked"/>
+            <Button Text="Compras canceladas" BackgroundColor="#16CAB0" CornerRadius="20" Clicked="Button3_Clicked"/>
+
+            <Frame BackgroundColor="#9CE46A" BorderColor="#16CAB0" Padding="0">
+                <Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Margin="15, 0, 10 ,0" Text="Código" VerticalOptions="Center" Grid.Column="0" TextColor="Black"/>
+                    <Label Margin="15, 0, 10 ,0" Text="Artículo" VerticalOptions="Center" Grid.Column="1" TextColor="Black"/>
+                    <Label Margin="15, 0, 10 ,0" Text="Fecha" VerticalOptions="Center" Grid.Column="2" TextColor="Black"/>
+                    <Label Margin="15, 0, 10 ,0" Text="Estado" VerticalOptions="Center" Grid.Column="3" TextColor="Black"/>
+
+                    <BoxView BackgroundColor="#16CAB0" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="#16CAB0" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="#16CAB0" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView BackgroundColor="#16CAB0" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
