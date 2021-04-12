@@ -32,7 +32,7 @@
                     <Entry Placeholder="Nombre" PlaceholderColor="#666666" Margin="0,10"
                                 x:Name="usr" TextColor="#666666" BackgroundColor="#F6F6F6"></Entry>
                     <Entry Placeholder="Correo Electronico" PlaceholderColor="#666666" Margin="0,10"
-                                x:Name="id" TextColor="#666666" BackgroundColor="#F6F6F6"></Entry>
+                                x:Name="email" TextColor="#666666" BackgroundColor="#F6F6F6"></Entry>
                     <Entry Placeholder="Contraseña" PlaceholderColor="#666666" IsPassword="True" Margin="0,10"
                                     x:Name="pwd" TextColor="#666666" BackgroundColor="#F6F6F6"></Entry>
 
@@ -40,6 +40,28 @@
                     <Button Text="Crear cuenta" BackgroundColor="#45B549" TextColor="White"
                             BorderRadius="40" x:Name="btnSignUp" FontAttributes="Bold" Margin="0,60,0,0"
                             Padding="10"></Button>
+
+                    <Label Text="Usuarios" HorizontalOptions="Center" FontSize="Large" />
+                    <Entry x:Name="txtUsername" Placeholder="Usuario"/>
+                    <Entry x:Name="txtEmail" Placeholder="Email"/>
+                    <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True"/>
+                    <Button Text="Agregar nuevo usuario" x:Name="BtnInsert"/>
+                    <Button Text="Obtener usuarios" x:Name="BtnAllUser"/>
+                    <Label x:Name="StatusMessage" FontSize="Medium" />
+                    <ListView x:Name="userList">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid>
+                                        <Label Text="{Binding Id}"/>
+                                        <Label Text="{Binding Username}" />
+                                        <Label Grid.Column="1" Text="{Binding Email}" />
+                                        <Label Grid.Column="2" Text="{Binding Password}" />
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </StackLayout>
             </Grid>
         </Frame>
