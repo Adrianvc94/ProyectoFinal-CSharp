@@ -10,7 +10,7 @@
         <StackLayout>
             <Grid Margin="0,50,0,0">
                 <Label Text="Iniciar Sesión" HorizontalOptions="Center" VerticalOptions="Start"
-               TextColor="Black" FontSize="35" FontAttributes="Bold" 
+               TextColor="White" FontSize="35" FontAttributes="Bold" 
                       
                 ></Label>
                 
