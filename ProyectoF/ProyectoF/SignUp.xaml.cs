@@ -23,9 +23,7 @@ namespace ProyectoF
 
         private void BtnSignUp_Clicked(object sender, EventArgs e)
         {
-            StatusMessage.Text = string.Empty;
             UsuarioRepositorio.Instancia.AddNewUser(usr.Text, email.Text, pwd.Text);
-            StatusMessage.Text = UsuarioRepositorio.Instancia.EstadoMensaje;
 
         }
 
@@ -33,7 +31,6 @@ namespace ProyectoF
         {
             var allUsers = UsuarioRepositorio.Instancia.GetAllUsers();
             userList.ItemsSource = allUsers;
-            StatusMessage.Text = UsuarioRepositorio.Instancia.EstadoMensaje;
         }
 
         private void BtnIrLogin_Clicked(object sender, EventArgs e)
