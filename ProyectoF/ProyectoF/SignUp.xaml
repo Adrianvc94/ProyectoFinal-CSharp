@@ -42,12 +42,6 @@
                             Padding="10"></Button>
 
                     <Label Text="Usuarios" HorizontalOptions="Center" FontSize="Large" />
-                    <Entry x:Name="txtUsername" Placeholder="Usuario"/>
-                    <Entry x:Name="txtEmail" Placeholder="Email"/>
-                    <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True"/>
-                    <Button Text="Agregar nuevo usuario" x:Name="BtnInsert"/>
-                    <Button Text="Obtener usuarios" x:Name="BtnAllUser"/>
-                    <Label x:Name="StatusMessage" FontSize="Medium" />
                     <ListView x:Name="userList">
                         <ListView.ItemTemplate>
                             <DataTemplate>
